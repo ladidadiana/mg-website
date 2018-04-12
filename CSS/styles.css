@@ -1,0 +1,41 @@
+body, html {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div {
+  height: 200px;
+  width: 100%;
+}
+
+.fixed {
+  background: URL('https://ukmlaforums.com/wp-content/uploads/2018/04/photo-1484583066749-c2129489f52f.jpeg') center no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.not-fixed {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding-top: 200px;
+}
+
+.top {
+  background-color: blue;
+  height: 600px;
+}
+
+.bottom {
+  background-color: red;
+  height: 600px;
+}
+
+.follow-up {
+  height: 200px;
+  background-color: blue;
+}

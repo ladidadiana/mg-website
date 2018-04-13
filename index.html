@@ -7,6 +7,7 @@
   <!--Nav bar area allocated to DIANA ----->
   <body>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="css/blog-grid.css" rel="stylesheet">
     <div class="navbar">
@@ -14,27 +15,46 @@
 
 
       <header>
-        <div class="navbar">
 
-          <h1>UKMLAforums </h1>
-          <a href="/index.html" class="logo"><img src="images/logo.png" alt="UKMLAforums"></a>
-          <div class="menu-navbar" data-nav-menu="#main-menu" id="main-menu">
+        <div class="navbar-default navbar-fixed-top">
 
-          <ul>
-            <li> <a href="#blog-grid"> Blog  </a> <li>
-            <li> <a href="/meet-the-bloggers.html"> Meet the bloggers </a> <li>
-            <li> <a href="/about-us.html"> About us </a> <li>
-            <li> <a href="/get-involved.html"> Get involved </a> <li>
-          </ul>
 
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">
+                    <a href="#" class="navbar-brand"><img src="images/logo.png" alt="UKMLAforums"></a>
+
+                    <button class= "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> </button>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+
+
+              <div class="collapse nav-bar-collapse navHeaderCollapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"> <a href="#"> Home </a> </li>
+                  <li> <a href="#blog-grid"> Blog  </a> </li>
+                  <li> <a href="/meet-the-bloggers.html"> Meet the bloggers </a> </li>
+                  <li> <a href="/about-us.html"> About us </a> </li>
+                  <li> <a href="/get-involved.html"> Get involved </a> </li>
+                </ul>
+
+                <form>
+                  <button class="src-btn" type="submit"><i class ="ion-ios-search-strong"></i> </button>
+                  <input class="src-input" type="text" placeholder="Search a topic">
+                </form>
+              </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="src area">
-        <form>
-          <button class="src-btn" type="submit"><i class ="ion-ios-search-strong"></i> </button>
-          <input class="src-input" type="text" placeholder="Search a topic">
-        </form>
-      </div>
+
         </header>
 <!--Landing area allocated to DIANA ----->
     <div class="slider"> </div>
@@ -90,9 +110,9 @@
 
   </body>
 
-  <footer>
+  <footer class="page-footer font-small pt-4 mt-4">
 
-		<div class="container">
+		<div class="container-fluid text-center text-md-left">
 			<div class="row">
 
 				<div class="col-lg-4 col-md-6">
@@ -101,10 +121,10 @@
 						<a class="logo" href="/index.html"><img src="images/logo.png" alt="Logo Image"></a>
 
 						<ul class="icons">
-							<li><a href="https://www.facebook.com/ukmlaforums/"><i class="ion-social-facebook-outline"></i></a></li>
-							<li><a href="https://twitter.com/ukmlaforums/"><i class="ion-social-twitter-outline"></i></a></li>
-							<li><a href="https://www.instagram.com/ukmlaforums/ "><i class="ion-social-instagram-outline"></i></a></li>
-							<li><a href="mailto:info@ukmlaforums.com"><i class="e-mail???"></i></a></li>
+							<li><a href="https://www.facebook.com/ukmlaforums/"> <i class="fab fa-facebook"></i> </a></li>
+							<li><a href="https://twitter.com/ukmlaforums/"><i class="fab fa-twitter-square"></i></i></a></li>
+							<li><a href="https://www.instagram.com/ukmlaforums/ "><i class="fab fa-instagram"></i></i></a></li>
+							<li><a href="mailto:info@ukmlaforums.com"><i class="far fa-envelope-open"></i></a></li>
 						</ul>
 
 					</div>
@@ -138,11 +158,22 @@
 							</form>
 						</div>
 
+            <div class="footer-copyright py-3 text-center">
+              <p> (c) Copywright UKMLAforums 2018 </p>
+
+              <ul class="footer-nav">
+                <li> <a href="termsofuse.html"> Terms of use </a></li>
+                <li> <a href="privacypolicy.html"> Privacy policy </a></li>
+                <li> <a href="feedback.html"> Feedback </a></li>
+
+            </div> <!--bottom footer close -->
+
 					</div><!-- footer-section -->
 				</div><!-- col-lg-4 col-md-6 -->
 
 			</div><!-- row -->
 		</div><!-- container -->
 	</footer>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 </html>

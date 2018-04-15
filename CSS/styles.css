@@ -12,6 +12,9 @@ div {
   width: 100%;
 }
 
+.fixed1 h4 {
+  color: white;
+}
 
 .not-fixed {
   text-align: center;

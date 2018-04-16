@@ -1,0 +1,52 @@
+
+img {
+  max-width: 100%;
+}
+
+
+img:hover { transform: scale(1.05); }
+
+h2 {
+  color: grey;
+  font-size: 1.8em;
+  padding: 10px;
+  text-align: center;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+footer {
+background-color: #292c2f;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width: 100%;
+font: 16px helvetica;
+color: white;
+text-align: left;
+padding: 50px 60px;
+margin-top: 80px;
+overflow: hidden;
+}
+
+footer .footer-icons {
+  align: right;
+}
+
+
+footer ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post {
+    border-right: 1px solid grey;
+}
+
+.blog-post-grid {
+    margin: 5%;
+}
+a:hover {
+  text-decoration-color: grey;
+}

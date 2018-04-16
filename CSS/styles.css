@@ -12,11 +12,15 @@ div {
   width: 100%;
 }
 
+.fixed1 h4 {
+  color: white;
+}
 
 .not-fixed {
   text-align: center;
   color: #ffffff;
   margin: 0;
+
 }
 
 h1 {
@@ -40,7 +44,7 @@ h1 {
 }
 
 .not-fixed h1 {
-  font-size: 50px;
+  font-size: 2.5em;
   font-weight: 800;
   font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
@@ -70,8 +74,9 @@ h1 {
 }
 
 .blogtext {
-  padding: 0px 80px 0px 80px;
+  padding: 0px 10% 0px 10%;
   font-size: 1em;
+}
 
 .blogger-bio {
   text-align: justify;
@@ -84,4 +89,9 @@ h1 {
 
 .blogger-image {
   float:none;
+}
+
+.youtube-logo{
+  max-width: 300px;
+  margin: auto;
 }

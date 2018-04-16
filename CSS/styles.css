@@ -2,16 +2,6 @@ img {
   max-width: 100%;
 }
 
-body, html {
-  width: 100%;
-  margin: 0 auto;
-}
-
-div {
-  height: 200px;
-  width: 100%;
-}
-
 .fixed1 h4 {
   color: white;
 }
@@ -94,4 +84,30 @@ h1 {
 .youtube-logo{
   max-width: 300px;
   margin: auto;
+}
+
+
+footer {
+background-color: #292c2f;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width: 100%;
+font: 16px helvetica;
+color: white;
+text-align: left;
+padding: 50px 60px;
+margin-top: 80px;
+overflow: hidden;
+}
+
+footer .footer-icons {
+  align: right;
+}
+
+
+footer ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

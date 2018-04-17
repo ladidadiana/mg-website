@@ -5,14 +5,12 @@ a, a:hover {
 img {
   max-width: 100%
 }
-
 .category-image {
   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
   padding: 10px;
 }
 
@@ -47,10 +45,51 @@ a:hover .middle, .middle:hover {
 h2 {
   color: grey;
   font-size: 2.5rem;
-  padding: 10px;
   text-align: center;
   font-family: inherit;
   text-decoration: none;
+}
+
+body {
+  background:#f9fafa;
+}
+
+
+.about-us h4{
+  padding: 0 20% 0 20%;
+  text-align: justify;
+  font: helvetica;
+  color: grey;
+}
+
+.about-us h1 {
+  color: #5271ff;
+  text-align: center;
+  font: helvetica;
+}
+
+ .about-us p {
+   padding: 0 20% 0 20%;
+   text-align: center;
+   font-size: 1.2em;
+   font: helvetica;
+   color: grey;
+   margin-bottom: 0;
+ }
+
+
+
+hr {
+  display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+    border-color:#5271ff;
+    opacity: 0.5;
+
 }
 
 footer {
@@ -61,29 +100,11 @@ width: 100%;
 font: 16px helvetica;
 color: white;
 text-align: left;
-
 padding: 50px 60px;
 margin-top: 80px;
 overflow: hidden;
 }
 
 footer .footer-icons {
-  align: right;
-}
-
-
-footer  ul {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.bg-gray {
-  background:#D3D3D3;
-}
-
-.about-us {
-  padding: 10px;
-  margin: 10px;
+font-size: 1.7em;
 }

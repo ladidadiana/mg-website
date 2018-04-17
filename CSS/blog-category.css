@@ -44,6 +44,10 @@ footer ul {
     border-right: 1px solid grey;
 }
 
+.blog-post:first-child {
+  border-left: 1px solid grey;
+}
+
 .blog-post-grid {
     margin: 5%;
 }
